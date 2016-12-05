@@ -5,3 +5,7 @@ Phone numbers
 Emails
 --Grabs anything before @ or +
 (^.+)\+|(^.+)\@
+
+Files
+--Finds png, jpg, and gifs
+(.+)\.(png|jpg|gif)$
