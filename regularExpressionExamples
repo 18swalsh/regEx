@@ -13,5 +13,3 @@ Files
 URLs - https://regex101.com/r/M4pLAK/1
 --Returns the path (includes query, etc.)
 [^\/]+(?=\/$|$)
-
-
