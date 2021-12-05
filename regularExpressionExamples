@@ -1,11 +1,17 @@
 Phone numbers 
---Grabs the area code
+--Returns the area code
 ^\(?1? ?(\d{3})
 
 Emails
---Grabs anything before @ or +
+--Returns anything before @ or +
 (^.+)\+|(^.+)\@
 
 Files
---Finds png, jpg, and gifs
+--Returns png, jpg, and gifs
 (.+)\.(png|jpg|gif)$
+
+URLs - https://regex101.com/r/M4pLAK/1
+--Returns the path (includes query, etc.)
+[^\/]+(?=\/$|$)
+
+
